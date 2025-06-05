@@ -4,7 +4,7 @@ import { PrismaClient } from "@repo/db/client";
 const client = new PrismaClient();
 
 export const GET = async () => {
-    //console.log("");
+    //console.log("I am inside getHandler");
     await client.user.create({
         data: {
             email: "asd",
